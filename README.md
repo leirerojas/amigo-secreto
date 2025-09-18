@@ -48,6 +48,14 @@ Este es un proyecto simple en **JavaScript, HTML y CSS** que permite organizar u
 
 ---
 
+## 💡 Posibles mejoras
+
+- Permitir reiniciar el sorteo (limpiar resultados).
+- Almacenar los nombres en localStorage para que no se borren al recargar la página.
+- Mejorar diseño visual con animaciones o transición de sorteo.
+
+---
+
 ## 👩‍💻 Autor
 
 - Leire Rojas
