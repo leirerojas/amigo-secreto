@@ -20,3 +20,14 @@ function listaDeAmigos(){
     }
 }
 
+function sortearAmigo() {
+    if(amigos.length > 0){
+        let resultado = document.getElementById("resultado");
+        let numeroAleatorio = Math.floor(Math.random()*amigos.length);
+        resultado.innerHTML = `<li>${amigos[numeroAleatorio]}</li>`;
+    }else{
+        alert("Necesitas tener al menos un amigo agregado");
+        return;
+    }
+}
+
